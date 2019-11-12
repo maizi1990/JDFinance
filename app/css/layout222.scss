@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+//布局模块
+@mixin flex($direction:column, $inline:block) {
+	display: if($inline==block,flex,inline-flex);
+	//如果是block,则flex;否认inline-flex
+	flex-direction:$direction;
+	flex-wrap:wrap;//溢出换行
+
+
+}
+

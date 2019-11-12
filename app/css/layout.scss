@@ -1,9 +1,6 @@
-@mixin sexy-border($color, $width) {
-  border: {
-    color: $color;
-    width: $width;
-    style: dashed;
-  }
+@charset "UTF-8";
+@mixin flex($direction: column, $inline: block) {
+  display: if($inline==block, flex, inline-flex);
+  flex-direction: $direction;
+  flex-wrap: wrap;
 }
-
-p { @include sexy-border(blue, 1in); }

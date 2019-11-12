@@ -1,7 +1,6 @@
 <template lang="html">
-    <div :class="$style.test">
-        <h1>{{ title }}</h1>
-        <p>abcdef</p>
+    <div :class="">
+        
     </div>
 </template>
 
@@ -15,11 +14,6 @@ export default {
 }
 </script>
 
-<style lang="scss" module>
-  .test{
-    color: red;
-    h1{
-      font-size:40px;
-    }
-  }
+<style lang="scss">
+ 
 </style>
